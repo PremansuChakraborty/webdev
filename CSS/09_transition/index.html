@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transition</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      .box {
+        display: inline-block;
+        width: 20vw;
+        height: 30vh;
+        background: orange;
+        transition-property: width height;
+        transition-duration: 5s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0.25s;
+      }
+      .box:hover{
+        width: 70vw;
+        height: 50vh;
+      }
+      .box2 {
+        float: right;
+        width: 20vw;
+        height: 30vh;
+        background: rgb(250, 97, 186);
+       /* transition-property: width height;
+        transition-duration: 5s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0.5s;*/
+        transition: width 5s ease-in-out 0.5s, height 5s ease-in-out 0.5s;
+      }
+      .box2:hover{
+        width: 70vw;
+        height: 50vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, soluta
+      error quaerat minus eius ipsam excepturi autem sed officiis quia.
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, soluta
+        error quaerat minus eius ipsam excepturi autem sed officiis quia.
+      </div>
+  </body>
+</html>

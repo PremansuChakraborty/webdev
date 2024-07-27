@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+  <style>
+    .box{
+        border: 5px solid rebeccapurple;
+        width: 30vw;
+        transform: translate(100px,60px) rotate(60deg) scale(2,0.5);
+    }
+    /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+    img{
+        width: 30vw;
+        height: 30vh;
+
+    }
+  </style>
+</head>
+
+<!-- unsplash images api -> help to get dinamic images -->
+<body>
+    <div class="box">
+        <img src="./2.jpg" alt="LOADING">
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background: #000;
+            color: aliceblue;
+        }
+        li{
+            display:inline-grid;
+            padding: 2vw;
+        }
+        .container{
+            width: 100vw;
+            height: 80vh;
+            background:aquamarine;
+        }
+        footer{
+            background: #000;
+            width: 100%;
+            height: 9vh;
+            color:aliceblue ;
+            text-align: center;
+            align-content: center;
+        }
+
+        @media only screen and (max-width:1000px) {
+            .container{
+                background: antiquewhite;
+            }
+            
+        }
+        @media only screen and (max-width:500px) {
+            .container{
+                background:rebeccapurple;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container"></div>
+    <footer>
+        THIS IS A COPYRIGHTED &copy; CONTENT
+    </footer>
+</body>
+</html>

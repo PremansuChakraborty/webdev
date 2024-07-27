@@ -1,0 +1,23 @@
+.box1{
+    /* visibility: hidden; */
+    display: inline-block;
+    background: red;
+    width:300px;
+    text-align: center;
+    text-decoration: underline white;
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.box2{
+    display: inline-block;
+    background: rgb(15, 31, 252);
+    width:300px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 5px;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}

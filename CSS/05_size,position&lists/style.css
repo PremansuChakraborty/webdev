@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 1;
+} 
+header{
+    font-size: 2vw;
+    background: rgb(236, 6, 186);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding: 10px;
+}
+/* 
+li{
+    display: inline;
+} */
+
+ul{
+   
+    list-style: square ;
+}
+
+.container{
+    background: rgb(50, 81, 192);
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    font-size: 2vw;
+}
+
+.box{
+    border: 5px solid burlywood;
+    margin: 5px;
+    padding: 5px;
+}
+
+.box1{
+    display: inline-block;
+    border: 5px solid burlywood;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    background: rgb(6, 223, 243) ;
+    position: relative;
+    bottom: 155vw;
+    /* left: 50px; */
+}
+.box2{
+    display: inline-block;
+    border: 5px solid burlywood;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    background: rgb(6, 243, 196);
+}
+
+.chatbox{
+    text-align: center;
+    width: 30vw;
+    height: 15vh;
+    background: rgb(225, 232, 220);
+    position: fixed; 
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+
+}
+

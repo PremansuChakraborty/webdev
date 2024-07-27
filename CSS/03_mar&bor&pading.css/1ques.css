@@ -1,0 +1,29 @@
+header{
+    height: 80px;
+    width: 100%;
+    background: rgb(216, 99, 15);
+    border-radius: 50px;
+    border: solid 10px black;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.content{
+        padding: 10px;
+        height: 550px;
+        width: 100%;
+        color: rgb(2, 2, 2);
+        background: rgb(115, 137, 17);
+        border-radius: 20px;
+        border: solid 10px black;
+        margin-bottom: 30px;
+}
+footer{
+    height: 80px;
+    width: 100%;
+    background: rgb(45, 146, 240);
+    border-radius: 50px;
+    border: solid 10px black;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
